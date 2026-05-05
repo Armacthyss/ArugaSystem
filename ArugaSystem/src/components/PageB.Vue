@@ -3,15 +3,12 @@
     <h1 style="color: #166534; font-size: 3rem;">This is Page B</h1>
     <p style="color: #5d6b52; margin-bottom: 20px;">Staff Portal Area</p>
 
-    <button 
-      @click="$router.push('/')" 
-      style="padding: 15px 30px; background: #166534; color: white; border: none; border-radius: 12px; cursor: pointer; font-weight: bold;"
-    >
-      ← Back to Page A
+    <button @click="$router.push('/')" style="padding: 10px 20px; cursor: pointer;">
+      Go Back Home
     </button>
   </div>
 </template>
 
 <script setup>
-// Navigation logic is handled by $router in the template
+// You can leave this empty or add logic later
 </script>
